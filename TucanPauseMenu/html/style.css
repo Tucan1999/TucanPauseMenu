@@ -1,0 +1,121 @@
+body {
+	background-color: rgba(0,0,0,0);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	color: rgba(0,0,0,0);
+	font-family: 'Karantina';
+	height: 100%;
+    width: 100%;
+}
+.container {
+	position:relative;
+    height: 1080px;
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+	background-image: url("img/background.png");
+	
+	background-size:cover;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+	background: linear-gradient(156deg, rgba(255,255,255,0.4990371148459384) 0%, rgba(0, 0, 0, 0.719) 49%, rgba(255, 8, 0, 0.633) 100%);
+}
+
+.options {
+	border: none;
+	background: transparent;
+	position:relative;
+	top: 200px;
+	color: white;
+	text-shadow: 0px 0px 10px white;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size: 50px;
+	margin: 0px;
+	margin-left: 50px;
+}
+.title {
+	border: none;
+	text-shadow: 0px 0px 10px white;
+	background: transparent;
+	position:relative;
+	color: white;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size: 30px;
+}
+
+.updatescreen {
+	height: 550px;
+	width: 100%;
+	background: transparent;
+	overflow-y:scroll;
+}
+
+.discord {
+	position: relative;
+	font-size: 20px;
+	top: 390px;
+	left: 50px;
+	border: none;
+	margin-right: 10px;
+	background: transparent;
+	text-shadow: 0px 0px 10px white;
+	color: white;
+}
+
+.itemup {
+	height: 200px;
+	width: 95%;
+	
+	background: transparent;
+	margin: 2px; 
+}
+.ruletext {
+	font-size: 15px;
+	color: white;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+::-webkit-scrollbar-track,
+	::-webkit-scrollbar-track {
+		background-color: none;
+		border: none;
+	}
+
+	::-webkit-scrollbar,
+	::-webkit-scrollbar {
+		width: 10px;
+		background-color: rgba(0,0,0,0);
+	}
+
+	::-webkit-scrollbar-thumb,
+	::-webkit-scrollbar-thumb {
+		background-color: rgba(245, 0, 0, 0.8);
+		border: 2px solid rgba(245, 0, 0, 0.8)
+		border-radius: 10px;
+	}
+
+.options:hover {
+	border-bottom: 2px solid rgb(245, 0, 0);
+}
+
+.options:focus {
+	border-bottom: 2px solid rgb(245, 0, 0);
+}
+
+
+.mainscreen {
+	position: absolute;
+	left: 40%;
+	bottom: 20%;
+
+	height: 50%;
+	width: 50%;
+	background: transparent;
+}
+
+
